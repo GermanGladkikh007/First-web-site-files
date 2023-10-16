@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1220px;
+    padding: 100px; 
+    align-items: center;
+}
+
+.reg-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    width: 500px;
+}
+
+.title{
+    color: rgb(89, 203, 223)
+}
+input{
+    height: 23px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border-style: groove;
+}
