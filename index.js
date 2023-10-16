@@ -7,9 +7,9 @@ const qs = require('querystring')
 const connection = mysql.createConnection({
     host:"localhost",
     user:"user",
-    password:"12345",
-    database: "database"
-})
+    password:"password",
+    database: "db"
+}) 
 
 connection.connect(function(err){
     if(err){
