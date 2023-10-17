@@ -6,10 +6,10 @@ const qs = require('querystring')
 
 const connection = mysql.createConnection({
     host:"localhost",
-    user:"user",
-    password:"password",
-    database: "db"
-}) 
+    user:"user1",
+    password:"everybody123__",
+    database: "database1"
+})
 
 connection.connect(function(err){
     if(err){
